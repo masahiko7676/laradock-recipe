@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class HelloController extends Controller
 {
-    public function index($id='zero'){
+    public function index($id){
         //hello.blade.php
         $data = [
             'id' => $id
